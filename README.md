@@ -1,58 +1,52 @@
-# VSB Engineering College AI Chatbot
+#  Student Assist Chatbot
 
-## Overview
+A smart AI-powered **college assistant chatbot** built using **Python, Streamlit, and Groq API**.  
+It answers student queries, uses predefined intents, and stores chat history for each user.
 
-VSB Engineering College AI Chatbot is a Streamlit-based chatbot designed to answer questions related to VSB Engineering College. The chatbot uses Natural Language Processing (TF-IDF and Cosine Similarity) to provide relevant responses and stores chat history in a SQLite database.
+---
 
-## Features
-
-- College information chatbot
-- Greeting responses
-- AI-powered question matching
-- SQLite database storage
-- Admin dashboard
-- Chat log monitoring
-- User-friendly interface
-- Streamlit web application
-
-## Technologies Used
-
-- Python
-- Streamlit
-- SQLite
-- Pandas
-- Scikit-learn
-- TF-IDF Vectorizer
-- Cosine Similarity
+##  Live Demo
+https://studentassistantchatbot-3i7iefkio6ydjeajbe3h2u.streamlit.app/
 
 
-## Admin Dashboard
+---
 
-The chatbot includes an admin panel that allows administrators to:
+##  Features
 
-- View chat logs
-- Monitor user questions
-- Track chatbot responses
+- User friendly chat interface
+-  College FAQ support using `intents.json`
+-  AI responses using Groq LLM API
+-  Separate chat history for each student
+-  Admin dashboard to view student chats
+-  Secure API key using Streamlit Secrets
+-  Chat logs stored per user
+-  Fully deployed on Streamlit Cloud
 
-## Database
+---
 
-The chatbot uses SQLite to store:
+##  Tech Stack
 
-- User questions
-- Chatbot responses
-- Timestamps
+- Python 
+- Streamlit 
+- Groq API 
+- Pandas 
+- JSON (intents system)
 
-## Future Enhancements
+---
+## How It Works
 
-- Student login system
-- FAQ management panel
-- Feedback system
-- Analytics dashboard
-- Voice-based interaction
+Student enters name
+Types question in chat
+System checks:
+First → intents.json
+Else → Groq AI response
+Response is displayed in UI
+Chat is saved in CSV logs
 
-## live demo 
-https://studentassistantchatbot-5k5jy54ivj2yksed4aru3t.streamlit.app/
+## Admin Panel
 
-## License
+Login using admin password
+View all student chat history
+Monitor queries per student
 
-This project is developed for educational purposes.
+
