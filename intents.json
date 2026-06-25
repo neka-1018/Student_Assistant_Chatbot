@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning"],
+      "responses": ["Hello! How can I help you today?"]
+    },
+    {
+      "tag": "college_name",
+      "patterns": ["what is the college name", "college name", "about college"],
+      "responses": ["VSB Engineering College is located in Karur, Tamil Nadu."]
+    },
+    {
+      "tag": "principal",
+      "patterns": ["who is the principal", "principal name"],
+      "responses": ["Please check the latest information from the college administration."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["courses offered", "departments", "available courses"],
+      "responses": ["The college offers various engineering and technology programs."]
+    },
+    {
+      "tag": "library",
+      "patterns": ["library", "library timing"],
+      "responses": ["The library provides books, journals, and digital resources."]
+    }
+  ]
+}
