@@ -1,3 +1,4 @@
 streamlit
 groq
-pandaspythonpython 
+pandas
+python-dotenv
